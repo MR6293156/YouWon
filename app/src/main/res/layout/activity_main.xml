@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="99dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginLeft="280dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/note_image"
+        tools:layout_editor_absoluteY="698dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="99dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/note_image"
+        tools:layout_editor_absoluteY="698dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="99dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="420dp"
+        android:layout_marginLeft="420dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/note_image"
+        tools:layout_editor_absoluteY="698dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="895dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Won!!"
+        android:textColor="#EDD608"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12,583"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15,918"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="477dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vs."
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes Earned:"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="402dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="James"
+        android:textColor="#C81717"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="477dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roxy"
+        android:textColor="#C81717"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
